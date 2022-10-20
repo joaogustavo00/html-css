@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 5px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.493);
+        }
+        article {
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: rgb(146, 143, 143);
+        }
+        article > p {
+            background-color: rgb(102, 93, 93);
+        }
+        article > h2 {
+            background-color: rgb(70, 67, 67);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: blueviolet;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        nav {
+            background: rgb(87, 85, 85);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.493);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+        nav > a:hover { 
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="http://instagram.com/jaogstv_" target="_blank">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla quod libero corrupti repudiandae alias accusamus inventore rerum a tempore recusandae! Atque placeat itaque corrupti nulla esse labore accusantium odit eligendi?</p>
+                <aside>
+                    <p>Artigo escrito por Gustavo</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gustavo Costa</p>
+    </footer>
+
+</body>
+</html>

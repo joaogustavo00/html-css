@@ -1,0 +1,40 @@
+	&reg; <!--Símbolo de registro-->
+        &copy; <!--Símbolo de COPYRIGHT-->
+        &trade; <!--Símbolo de Registro de Marca-->
+        &euro; <!--Símbolo de EURO-->
+        &pound; <!--Símbolo de LIBRA-->
+        &yen; <!--Símbolo de iens-->
+        &real; <!--Símbolo de REAL-->
+        &uparrow; <!--Símbolo de Seta pra cima-->
+        &downarrow; <!--Símbolo de Seta pra baixo-->
+
+ <!--emojipedia.org <-- Site pra pegar os emojis-->
+
+Strong ; Negrito
+em ; italico
+mark ; marca texto
+small ; texto pequeno
+del ; texto como excluido
+ins ; texto sublinhado
+sup ; encima
+sub ; sub
+<br> ; Pra quebrar linha
+
+
+abbr title ; Abreviações
+blockquote ; Citação completa
+<q> ; citação simples
+ol ; Lista ordenada
+type 1 A a I i / type vai junto com ol
+ul ; Lista não ordenada
+type disc = bolinha escura / circle = bolinha aberta / square = quadrado
+target="_blank" rel="external" = nova aba
+
+*AUDIO
+
+- controls = para aparecer o pause, etc.
+
+<picture> 
+<source media type> ; imagem que se adapta sozinha
+
+	

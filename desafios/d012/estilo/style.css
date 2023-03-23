@@ -55,22 +55,43 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3vw;
+    text-align: center;
+}
+
+section > p {
+    padding-bottom: 2em;
+    border-radius: 10px;
+
 }
 
 section.sessão-normal {
-    background-color: white;
+    background-color: rgba(243, 237, 225, 0.699);
     color: black;
 }
 
 section.sessão-imagem {
-    background-color: rgba(0, 0, 0, 0.582);
+    background-color: rgba(0, 0, 0, 0.521);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.692);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.sessão-imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.123);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#imagem-001 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#imagem-002 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
 }
 
 footer {

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .verde {
+            background-color: lightgreen;
+        }
+
+        .azul {
+            background-color: lightblue;
+        }
+
+        .yellow {
+            background-color: lightyellow;
+        }
+
+        .vermelho {
+            background-color: lightcoral;
+        }
+
+        .roxo {
+            background-color: rgba(223, 97, 248, 0.685);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4" class="verde">A</td>
+            <td rowspan="4" class="azul">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4" class="vermelho">C</td>
+            <td class="roxo">D</td>
+            <td class="roxo">E</td>
+            <td class="roxo">F</td>
+        </tr>
+        <tr>
+            <td class="roxo">G</td>
+            <td class="roxo">H</td>
+            <td class="roxo">I</td>
+        </tr>
+        <tr>
+            <td class="roxo">J</td>
+            <td class="roxo">L</td>
+            <td class="roxo">M</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="yellow">N</td>
+        </tr>
+    </table>
+</body>
+</html>

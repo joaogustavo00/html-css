@@ -5,6 +5,7 @@ body {
 table {
     width: 600px;
     border-collapse: collapse;
+    position: relative;
 }
 
 td, th {
@@ -23,6 +24,12 @@ caption {
 thead, tfoot {
     background-color: grey;
     color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: grey;
 }
 
 /*

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+thead, tfoot {
+    background-color: grey;
+    color: white;
+}
+
+/*
+:nth-child = classe filho
+(3n) = de três em três
+odd = números impares
+even = números pares
+*/
+
+tbody > tr:nth-child(2n) {
+    background-color: rgba(211, 211, 211, 0.678);
+}
+
+td.num {
+    text-align: right;
+}
+
+td.soma {
+    text-align: center;
+}
+
+td.paises {
+    text-align: right; 
+}

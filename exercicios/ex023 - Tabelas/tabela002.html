@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+                <th scope="col">País comparável (habitantes)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46 024 937</td>
+                <td class="paises">Espanha (46 754 778)</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 732 660</td>
+                <td class="paises">Burquina Fasso (20 903 273)</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 615 526</td>
+                <td class="paises">Camboja (16 718 965)</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 659 023</td>
+                <td class="paises">Zimbabwe (14 862 924)</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 835 379</td>
+                <td class="paises">Tunísia (11 818 619)</td>
+            </tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 088 065</td>
+                <td class="paises">Cuba (11 326 616)</td>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+                <td class="paises">Áustria (9 006 398)</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 936 431</td>
+                <td class="paises">Papua-Nova Guiné (8 947 024)</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 442 962</td>
+                <td class="paises">Suíça (8 654 622)</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 762 154</td>
+                <td class="paises"> Paraguai (7 132 538)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>155.148.280</strong></td>
+                <td class="soma"><strong>Total Comparação</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
